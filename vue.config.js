@@ -65,7 +65,7 @@ module.exports = {
       //  全局css样式，具体用法参考App.vue
       sass: {
         data: `
-          @import "@/styles/public.scss";
+          @import "@/styles/index.scss";
         `,
       },
     },
