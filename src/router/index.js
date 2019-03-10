@@ -11,7 +11,7 @@ const router = new Router({
       path: '/',
       name: 'home',
       meta: {
-        title: 'home',
+        title: '主页',
         auth: false, // 是否需要登录
         keepAlive: false,
       },
@@ -29,6 +29,7 @@ const router = new Router({
  * 路由前置检查
  */
 router.beforeEach((to, from, next) => {
+  document.title = to.meta.title;// 页面标题
   // 合法性校验
   if (to.meta.auth) {
     console.log('into auth');
