@@ -20,6 +20,7 @@ yarn run build
 - [x] vuex
 - [x] svg-icon 组件封装
 - [x] NProgress 页面加载进度条
+- [x] 全局 mixins
 
 
 ## Other

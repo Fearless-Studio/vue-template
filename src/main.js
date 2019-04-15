@@ -7,6 +7,10 @@ import './icons';
 
 import './styles/index.scss';
 
+import Mixin from './mixins';
+
+Vue.mixin(Mixin);
+
 Vue.config.productionTip = false;
 
 new Vue({
