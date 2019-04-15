@@ -19,6 +19,7 @@ yarn run build
 - [x] router
 - [x] vuex
 - [x] svg-icon 组件封装
+- [x] NProgress 页面加载进度条
 
 
 ## Other
